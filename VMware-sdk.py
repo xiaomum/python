@@ -471,6 +471,7 @@ class vCenterApi(object):
         objview.Destroy()
 
 if __name__ == '__main__':
-    obj = vCenterApi(host='10.211.93.236',user='test',pwd='*Ik<0okm')
+    obj = vCenterApi(host='xxx',user='test',pwd='xxx')
     print(obj.get_host_list())
+
     print(obj.get_datastore_list())

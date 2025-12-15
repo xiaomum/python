@@ -474,7 +474,7 @@ class connect(object):
 
 
 if __name__ == '__main__':
-    obj = connect(host='10.211.93.236',user='test',pwd='*IK<0okm',port=443)
+    obj = connect(host=xxxx',user='test',pwd='xxxx',port=443)
     print(obj.get_cluster_list())
 
     """ 
@@ -486,3 +486,4 @@ if __name__ == '__main__':
         sheet.append(i)
     wb.save(r'D:\咪咕文档\虚拟化资源池使用统计\1.xlsx')
     """
+
